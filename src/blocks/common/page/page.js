@@ -1,6 +1,7 @@
 import works from "../../../blocks/works/works.js";
 import ourteam from "../../ourteam/ourteam.js";
 import contact from "../../contact/contact.js";
+import navigation from "../../navigation/navigation";
 
 
 /**
@@ -80,6 +81,7 @@ function initBlock() {
     works.initBlock();
     ourteam.initBlock();
     contact.initBlock();
+    navigation.initBlock();
 
     // Process the initial window size and scroll position
     handleWindowResize();

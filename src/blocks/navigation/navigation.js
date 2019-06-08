@@ -8,6 +8,7 @@
 
 // -------------------------- BEGIN UTILITY FUNCTIONS -------------------------
 // TODO: add code here
+
 // --------------------------- END UTILITY FUNCTIONS --------------------------
 
 // ----------------------------- BEGIN DOM METHODS ----------------------------
@@ -28,16 +29,26 @@ function initBlock() {
     $('.navigation__ul').on('click', 'a', function () {
         // полчаем смещение елемента с id якоря
         let offset = $($(this).attr('href')).offset().top;
-        $('html').stop().animate({scrollTop: offset}, 500, 'swing', function () {
+        $('html, body').stop().animate({scrollTop: offset}, 500, 'swing', function () {
 
         });
     });
     $('.navigation__list').on('click', 'a', function () {
         // полчаем смещение елемента с id якоря
         let offset = $($(this).attr('href')).offset().top;
-        $('html').stop().animate({scrollTop: offset}, 1000, 'swing', function () {
+        $('html, body').stop().animate({scrollTop: offset}, 1000, 'swing', function () {
 
         });
+    });
+
+    $(window).scroll(function (){
+        var posY=window.scrollY; //переменная сколько уже прокрутили
+
+        if (posY > 50){
+            $('.navigation__cower').addClass('active');
+        } else{
+            $('.navigation__cower').removeClass('active');
+        }
     });
     return true;
 }

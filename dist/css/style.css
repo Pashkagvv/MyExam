@@ -10183,6 +10183,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #463d70;
 }
 
+.navigation__ul:onmousewheel {
+  background: #1b1e21;
+}
+
 .navigation .container {
   display: flex;
   justify-content: space-between;
@@ -10198,6 +10202,10 @@ a.text-dark:hover, a.text-dark:focus {
   .navigation .container {
     justify-content: left;
   }
+}
+
+.navigation__cower {
+  width: 100%;
 }
 
 .navigation__menuSmollSize {
@@ -10292,6 +10300,10 @@ a.text-dark:hover, a.text-dark:focus {
     background: rgba(0, 0, 0, 0.8);
     margin: 0;
   }
+}
+
+.navigation .active {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /**

@@ -213,7 +213,7 @@ function initBlock() {
     $('.contact__buttonUp').on('click', 'a', function () {
         // полчаем смещение елемента с id якоря
         let offset = $($(this).attr('href')).offset().top;
-        $('html').stop().animate({scrollTop: offset}, 1000, 'swing', function () {
+        $('html, body').stop().animate({scrollTop: offset}, 1000, 'swing', function () {
 
         });
     });
