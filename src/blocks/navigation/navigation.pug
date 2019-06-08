@@ -1,0 +1,33 @@
+//-
+    name: navigation
+    description: Markup for the navigation block
+    arguments:
+        - {object} data - block data
+
+mixin navigation(data = {})
+    .navigation&attributes(attributes)
+        .container
+            img.navigation__logo(src="./img/Logo.png", alt="")
+            ul.navigation__ul
+                li.navigation__item
+                    a.navigation__link(href="#home") home
+                li.navigation__item
+                    a.navigation__link(href="#about") about
+                li.navigation__item
+                    a.navigation__link(href="#services") services
+                li.navigation__item
+                    a.navigation__link(href="#works") works
+                li.navigation__item
+                    a.navigation__link(href="#contact") contact
+            .navigation__menuSmollSize
+                ul.navigation__list
+                    li.navigation__item
+                        a.navigation__link(href="#home") <i class="fas fa-home"></i>
+                    li.navigation__item
+                        a.navigation__link(href="#about") <i class="fas fa-address-card"></i>
+                    li.navigation__item
+                        a.navigation__link(href="#services") <i class="fas fa-key"></i>
+                    li.navigation__item
+                        a.navigation__link(href="#works") <i class="fas fa-file-signature"></i>
+                    li.navigation__item
+                        a.navigation__link(href="#contact") <i class="fas fa-id-card-alt"></i>

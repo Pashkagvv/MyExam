@@ -1,0 +1,63 @@
+{
+  "header": {
+    "title": "CreativE DIGITAL Project",
+    "subtitle": "Duis mollis, est non commodo luctus,<br> nisi erat porttitor ligula, eget lacinia odio sem nec elit."
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Nullam quis risus eget urna <span>mollis ornare,<span> vel eu leo. Donec id elit non mi porta      gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue     laoreet rutrum faucibus dolor auctor." ,
+     "subtitleSecond": "<span>Morbi leo risus,</span> porta ac consectetur ac, vestibulum at     eros. Vivamus sagit tis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Mae cenas faucibus mollis interdum. Cras mattis consectetur purus sit amet  <em>fermentum</em>. Sed  posuere consectetur est at lobortis."
+  },
+  "services": {
+    "title":{
+      "title": "OUR SERVICES",
+      "subtitle": "“Nullam quis risus eget urna mollis ornare vel<br> eu leo. Nulla vitae elit libero, a pharetra      augue      .”<br> <span>- Borat -</span>"
+    },
+    "Description": {
+      "SEO": {
+        "title": "SEO & MARKETING",
+        "subtitle": "Cras mattis consectetur<br> purus sit amet fermentum."
+      },
+      "Mobile":{
+        "title": "MOBILE DEVELOPMENT",
+        "subtitle": "Cras mattis consectetur<br> purus sit amet fermentum."
+      },
+      "Graphic": {
+        "title": "GRAPHIC DESIGN",
+        "subtitle": "Cras mattis consectetur<br> purus sit azzzzzzmet fermentum."
+      },
+      "Web": {
+        "title": "WEB DEVELOPMENT",
+        "subtitle": "Cras mattis consectetur<br> purus sit amet fermentum."
+      }
+    }
+  },
+"works": {
+  "title": "RECENT WORKS"
+},
+  "ourteam": {
+    "title": "MEET OUR TEAM",
+    "person1": {
+      "name": "Miguel Obrien",
+      "position": "CEO & Founder"
+    },
+    "person2": {
+      "name": "Jackie Carroll",
+      "position": "Art Director"
+    },
+    "person3": {
+      "name": "Ida Morrison",
+      "position": "Designer"
+    }
+},
+  "contact": {
+    "title": "GET IN TOUCH",
+    "link": {
+      "address": "Ikan Piranha Atas 220C<br>Malang - East Java<br>Indonesia",
+      "phoneNumber": "+380938137821 alcohol 24/7"
+    }
+  },
+  "footer":{
+    "subtitle": "©2014 tulusdriyo. All Rights Reserved."
+  }
+}

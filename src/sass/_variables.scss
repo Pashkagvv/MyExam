@@ -1,0 +1,77 @@
+// Minimum and maximum screen sizes
+$screen-xl-min: 1200px;
+$screen-lg-max: ($screen-xl-min - 1);
+$screen-lg-min: 992px;
+$screen-md-max: ($screen-lg-min - 1);
+$screen-md-min: 768px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-sm-min: 480px;
+$screen-xs-max: ($screen-sm-min - 1);
+
+// Breakpoints based on minimum screen width
+$breakpoints-up: (
+    sm: $screen-sm-min,
+    md: $screen-md-min,
+    lg: $screen-lg-min,
+    xl: $screen-xl-min
+);
+
+// Breakpoints based on maximum screen width
+$breakpoints-down: (
+    xs: $screen-xs-max,
+    sm: $screen-sm-max,
+    md: $screen-md-max,
+    lg: $screen-lg-max
+);
+
+// Breakpoints based on minimum and maximum screen widths
+$breakpoints-only: (
+    sm: ($screen-sm-min, $screen-sm-max),
+    md: ($screen-md-min, $screen-md-max),
+    lg: ($screen-lg-min, $screen-lg-max)
+);
+
+// Container width
+$container-xl: 1170px;
+$container-lg: 970px;
+$container-md: 750px;
+
+// Column gutter
+$gutter: 15px;
+
+// Fonts
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
+$font-family-ProximaNova: ProximaNova;
+$font-family-PTSans: 'PT Sans', sans-serif;
+
+// Font sizes
+$font-size-default: 16px;
+
+// Font weight values
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Line height values
+$line-height-base: 1.5;
+
+// Color palette
+$color-black: #000;
+$color-white: #fff;
+$color-for-bg: #ebebeb;
+$color-for-social: #9f9acf;
+$color-ourteam-bg: #ebebeb;
+$color-title: #fefbfc;
+$color-header-title: #fefefb;
+$color-header-subtitle: #fefdfd;
+$color-services-title: #665f60;
+$color-services-item-BG: #dbdbdb;
+$color-content: #fefcfd;
+$color-border-button: #8783b0;
+$color-button-About: #7d7a7c;
+$color-button-top: #9f9acf;
+$color-map: rgba(159, 154, 207, 0.7);
+$color-nav-back-on-hover: rgba(255, 255, 255, 0.4);
+$color-white-opacity: rgba(255, 255, 255, 0.7);
+$color-button-hover: #180b4a;
+$color-nav: rgba(0, 0, 0, .8);
+$color-nav-list: rgba(70, 61, 112, 1);

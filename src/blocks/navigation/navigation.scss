@@ -1,0 +1,118 @@
+/**
+ * Styles for the navigation block.
+ */
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+
+
+    // Selector styles
+    // TODO: add code
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+  &__link:hover{
+    border-radius: 3px;
+    background: $color-nav-back-on-hover;
+  }
+  &__item:hover{
+    text-decoration: none;
+    color: $color-nav-list;
+  }
+    // Nested selectors
+    // TODO: add code
+
+    // BEM elements
+    // TODO: add code
+    .container{
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 768px){
+        justify-content: center;
+      }
+      @media (max-width: 576px){
+        justify-content: left;
+      }
+    }
+    &__menuSmollSize {
+      display: none;
+      @media (max-width: 576px) {
+      display: flex;
+      justify-content: left;
+      padding: 10px 10px 10px 10px;
+      font-size: 30px;
+      color: $color-white;
+    }
+    }
+    &__ul{
+      display: flex;
+      text-transform: uppercase;
+      font-family: ProximaNova;
+      font-size: 24px;
+      font-weight: 600;
+      margin-top: 47px;
+      margin-right: 29px;
+      @media (max-width: 768px){
+        margin: 0 20px;
+        font-size: 15px;
+      }
+      @media (max-width: 576px) {
+        display:none;
+      }
+      }
+  &__item:not(:last-child){
+    margin-right: 27px;
+  }
+  &__item{
+    text-decoration: none;
+    @media (max-width: 900px){
+     margin: 0 auto;
+      padding: 3px 15px;
+    }
+  }
+  &__link{
+    text-decoration: none;
+    color: $color-white;
+  }
+  &__logo{
+    margin-top: 34px;
+    margin-left: 31px;
+    @media (max-width: 991px){
+      display: none;
+    }
+    @media (max-width: 576px){
+      display: none
+    }
+  }
+
+  &__list{
+    display: none;
+    @media (max-width: 576px){
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      border-radius: 5px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background: $color-nav;
+      margin: 0;
+    }
+  }
+
+    // Bem modifiers
+    // TODO: add code
+
+
+
+}

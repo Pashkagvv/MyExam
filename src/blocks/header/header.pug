@@ -1,0 +1,10 @@
+//-
+    name: header
+    description: Markup for the header block
+    arguments:
+        - {object} data - block data
+
+mixin header(data = {})
+    .header#home&attributes(attributes)
+        h1.header__title= data.title
+        p.header__subtitle!= data.subtitle

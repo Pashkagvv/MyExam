@@ -1,0 +1,33 @@
+//-
+    name: contact
+    description: Markup for the contact block
+    arguments:
+        - {object} data - block data
+
+mixin contact(data = {})
+    .contact&attributes(attributes)
+        #map
+            .container
+        .contact__wrapper.d-flex.flex-column.justify-content-between
+                .contact__topCower#contact
+                    img.contact__img(src="./img/IconMarker.png", alt="Marker")
+                    h2.contact__title= data.title
+                form.contact__form.d-flex.flex-wrap.justify-content-between
+                    a.contact__adressLink(href="#").d-flex.align-items-center
+                        .contact__ImgWrapper
+                            img.contact__LinkImg(src="./img/IconAddress.png")
+                        p.contact__LinkAdress.d-flex.justify-content-center.align-items-center!= data.link.address
+                            <i class="fas fa-map-marked"></i>
+                    a.contact__adressLinkTel(href="tel:+380938137821").d-flex.align-items-center
+                        .contact__ImgWrapper
+                            img.contact__LinkImg(src="./img/IconMobileNumber.png")
+                        p.contact__LinkAdress.d-flex.justify-content-center.align-items-center!= data.link.phoneNumber
+                            <i class="fas fa-headset"></i>
+                    input.contact__name(type="text" placeholder="Your name *" required)
+                    input.contact__email(type="email" placeholder="Your Email *" required)
+                    textarea.contact__text(type="textarea" placeholder="Your Massage *" rows="10" cols="20" wrap="on" autofocus
+                        required)
+                    button.contact__button(type="submit") send massage
+                    a.contact__buttonUp(href="#home")
+                        .contact__ButtonImgWrapper.d-flex.align-items-center.justify-content-center
+                            img.contact__LinkImg(src="./img/arrowTop.png")

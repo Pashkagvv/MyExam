@@ -1,0 +1,26 @@
+//-
+    name: works
+    description: Markup for the works block
+    arguments:
+        - {object} data - block data
+
+mixin works(data = {})
+    .works&attributes(attributes)
+        .container
+            .row
+                .col-lg-12
+                    img.works__img(src="./img/IconWorks.png", alt="Works")
+                    h1.works__title= data.title
+                    .works__slick#works
+                        .works__slider-item
+                            img.works__sliderImg(src="./img/Campofrío_Home_a1_1800.jpg", alt="Works")
+                        .works__slider-item
+                            img.works__sliderImg(src="./img/Campofrío_Home_a1_1800.jpg", alt="Works")
+                        .works__slider-item
+                            img.works__sliderImg(src="./img/Campofrío_Home_a1_1800.jpg", alt="Works")
+                        .works__slider-item
+                            img.works__sliderImg(src="./img/Campofrío_Home_a1_1800.jpg", alt="Works")
+                    .my-dots
+                    img.prev-arrow(src="./img/arrowLeft.png", alt="Prev")
+                    img.next-arrow(src="./img/arrowRight.png", alt="Next")
+                    button.works__button(type="submit") Viev Gallery

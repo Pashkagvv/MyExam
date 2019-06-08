@@ -1,0 +1,86 @@
+//-
+    name: ourteam
+    description: Markup for the ourteam block
+    arguments:
+        - {object} data - block data
+
+mixin ourteam(data = {})
+    .ourteam&attributes(attributes)
+        .container
+            img.ourteam__img(src="./img/IconTeam.png", alt="Team")
+            h2.ourteam__title= data.title
+            .ourteam__slick
+                .ourteam__slickItem
+                    img.ourteam__sliderImg(src="./img/Layer1.png", alt="photo")
+                    h3.ourteam__name= data.person1.name
+                    p.ourteam__subtitle= data.person1.position
+                    .ourteam__social.d-flex.justify-content-center
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/linked-in.png", alt="linked-in")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/google+.png", alt="google+")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/facebook.png", alt="facebook")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/twitter.png", alt="twitter")
+
+                .ourteam__slickItem
+                    img.ourteam__sliderImg(src="./img/Layer4.png", alt="photo")
+                    h3.ourteam__name= data.person2.name
+                    p.ourteam__subtitle= data.person2.position
+                    .ourteam__social.d-flex.justify-content-center
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/behance.png", alt="behance")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/linked-in.png", alt="linked-in")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/google+.png", alt="google+")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/facebook.png", alt="facebook")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/twitter.png", alt="twitter")
+                .ourteam__slickItem
+                    img.ourteam__sliderImg(src="./img/Layer5.png", alt="photo")
+                    h3.ourteam__name= data.person3.name
+                    p.ourteam__subtitle= data.person3.position
+                    .ourteam__social.d-flex.justify-content-center
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/behance.png", alt="behance")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/linked-in.png", alt="linked-in")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/google+.png", alt="google+")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/facebook.png", alt="facebook")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/twitter.png", alt="twitter")
+                .ourteam__slickItem
+                    img.ourteam__sliderImg(src="./img/Layer4.png", alt="photo")
+                    h3.ourteam__name= data.person2.name
+                    p.ourteam__subtitle= data.person2.position
+                    .ourteam__social.d-flex.justify-content-center
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/behance.png", alt="behance")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/linked-in.png", alt="linked-in")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/google+.png", alt="google+")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/facebook.png", alt="facebook")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/twitter.png", alt="twitter")
+                .ourteam__slickItem
+                    img.ourteam__sliderImg(src="./img/Layer1.png", alt="photo")
+                    h3.ourteam__name= data.person1.name
+                    p.ourteam__subtitle= data.person1.position
+                    .ourteam__social.d-flex.justify-content-center
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/linked-in.png", alt="linked-in")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/google+.png", alt="google+")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/facebook.png", alt="facebook")
+                        a(href="#").ourteam__links
+                            img.ourteam__socialImg(src="./img/twitter.png", alt="twitter")
+            img.ourteam__nextArrov(src="./img/right.png", alt="next")
+            img.ourteam__prevArrov(src="./img/left.png", alt="prev")

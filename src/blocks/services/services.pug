@@ -1,0 +1,37 @@
+//-
+    name: services
+    description: Markup for the services block
+    arguments:
+        - {object} data - block data
+
+mixin services(data = {})
+    .services&attributes(attributes)
+        .container
+            .services__OurServicesMid
+                img.services__OurServicesImg(src="./img/IconServices.png", alt="Services")
+                h2.services__OurServicesTitle= data.title.title
+                p.services__OurServicesSubtitle!= data.title.subtitle
+            .row.no-gutters
+                .col-lg-4
+                    .services__Graphic#services
+                        img.services__img(src="./img/IconGraphic.png", alt="Graphic")
+                        h2.services__title= data.Description.Graphic.title
+                        p.services__subtitle!= data.Description.Graphic.subtitle
+                    .services__SEO
+                        img.services__img(src="./img/IconSEO.png", alt="SEO")
+                        h2.services__title= data.Description.SEO.title
+                        p.services__subtitle!= data.Description.SEO.subtitle
+                .col-lg-4
+                    .services__Web
+                        img.services__img(src="./img/IconWeb.png", alt="Web")
+                        h2.services__title= data.Description.Web.title
+                        p.services__subtitle!= data.Description.Web.subtitle
+                    .services__Mobile
+                        img.services__img(src="./img/IconMobile.png", alt="Mobile")
+                        h2.services__title= data.Description.Mobile.title
+                        p.services__subtitle!= data.Description.Mobile.subtitle
+                .col-lg-4
+                    .services__OurServices
+                        img.services__OurServicesImg(src="./img/IconServices.png", alt="Services")
+                        h2.services__OurServicesTitle= data.title.title
+                        p.services__OurServicesSubtitle!= data.title.subtitle

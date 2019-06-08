@@ -1,0 +1,106 @@
+/**
+ * Styles for the ourteam block.
+ */
+.ourteam {
+    // Selector styles
+    // TODO: add code
+    position: relative;
+    background: $color-ourteam-bg;
+  padding-top: 54px;
+  padding-bottom: 98px;
+  @media (max-width: 991px){
+    padding: 20px 0;
+  }
+
+    // @media queries
+    // TODO: add code
+
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+&__links:hover{
+  opacity: .7;
+}
+    // Nested selectors
+    // TODO: add code
+    .slick-slide {
+      padding: 0 15px;
+    }
+  .slick-list{
+    padding-top: 129px;
+  }
+    // BEM elements
+    // TODO: add code
+  &__img{
+    display: block;
+    margin: 0 auto;
+    @media (max-width: 768px){
+      display: none;
+    }
+  }
+  &__title{
+    text-align: center;
+    color: $color-services-title;
+    font-family: $font-family-ProximaNova;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  &__slickItem{
+    background: $color-white;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  &__slick{
+    margin-top: 44px;
+  }
+  &__name{
+    text-align: center;
+    margin-top: -99px;
+    color: $color-for-social;
+    font-family: $font-family-ProximaNova;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  &__subtitle{
+    text-align: center;
+    color: $color-services-title;
+    font-family: $font-family-PTSans;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 42px;
+  }
+  &__social{
+    background: $color-for-social;
+    padding: 19px 0px;
+  }
+  &__socialImg{
+    margin-right: 12px;
+    margin-left:  12px;
+  }
+    &__nextArrov{
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      @media (max-width: 768px){
+        display: none;
+      }
+    }
+  &__prevArrov{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    @media (max-width: 768px){
+      display: none;
+    }
+  }
+  &__sliderImg{
+    margin: 0 auto;
+    transform: translateY(-50%);
+  }
+    // Bem modifiers
+    // TODO: add code
+}

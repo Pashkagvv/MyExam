@@ -1,0 +1,25 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "base";
+@import "normalize";
+@import "grid";
+@import "utilities";
+
+
+// TODO: include third-party styles
+@import "../blocks/navigation/navigation.scss";
+@import "../blocks/header/header.scss";
+@import "../blocks/about/about.scss";
+@import "../blocks/services/services.scss";
+@import "../blocks/works/works.scss";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../blocks/ourteam/ourteam.scss";
+@import "../blocks/contact/contact.scss";
+@import "../blocks/footer/footer.scss";
+
+
+@import "../blocks/common/page/page.scss";
+
+
+// TODO: include other block styles

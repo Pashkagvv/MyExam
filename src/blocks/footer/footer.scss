@@ -1,0 +1,62 @@
+/**
+ * Styles for the footer block.
+ */
+.footer {
+    // Selector styles
+    // TODO: add code
+    background: $color-for-social;
+    padding-top: 75px;
+    height: 185px;
+    @media (max-width: 991px){
+        padding: 20px 0;
+        height: 150px;
+    }
+    // @media queries
+    // TODO: add code
+&__socialLink:hover{
+    opacity: .7;
+}
+    // Pseudo-classes and pseudo-elements
+    // TODO: add code
+
+    // Nested selectors
+    // TODO: add code
+&__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    @media (max-width: 991px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+    // BEM elements
+    // TODO: add code
+    &__social{
+        margin-right: 15px;
+        @media (max-width: 991px){
+            padding: 0;
+            margin: 0;
+        }
+    }
+    &__socialLink{
+        margin-right: 13px;
+        margin-left: 13px;
+    }
+    &__subtitle{
+        color: $color-white;
+        font-family: $font-family-PTSans;
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 40px;
+        @media (max-width: 991px){
+            padding: 0;
+            margin: 10px 0;
+        }
+    }
+    // Bem modifiers
+    // TODO: add code
+}

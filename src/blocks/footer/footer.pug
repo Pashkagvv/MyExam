@@ -1,0 +1,27 @@
+//-
+    name: footer
+    description: Markup for the footer block
+    arguments:
+        - {object} data - block data
+
+mixin footer(data = {})
+    .footer&attributes(attributes)
+        .container
+            .footer__wrapper
+                ul.footer__social.d-flex.justify-content-end
+                    li
+                        a.footer__socialLink(href="#")
+                            img.footer__socialImg(src="./img/behance.png", alt="behance")
+                    li
+                        a.footer__socialLink(href="#")
+                            img.footer__socialImg(src="./img/linked-in.png", alt="linked-in")
+                    li
+                        a.footer__socialLink(href="#")
+                            img.footer__socialImg(src="./img/google+.png", alt="google+")
+                    li
+                        a.footer__socialLink(href="#")
+                            img.footer__socialImg(src="./img/facebook.png", alt="facebook")
+                    li
+                        a.footer__socialLink(href="#")
+                            img.footer__socialImg(src="./img/twitter.png", alt="twitter")
+                p.footer__subtitle= data.subtitle

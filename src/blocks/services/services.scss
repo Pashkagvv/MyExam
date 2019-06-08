@@ -1,0 +1,152 @@
+/**
+ * Styles for the services block.
+ */
+.services {
+  background: $color-for-bg;
+  padding-top: 52px;
+  @media (max-width: 991px) {
+    padding-top: 20px;
+    background: $color-for-social;
+  }
+  // Selector styles
+  // TODO: add code
+
+  // @media queries
+  // TODO: add code
+
+  // Pseudo-classes and pseudo-elements
+  // TODO: add code
+
+  // Nested selectors
+  // TODO: add code
+
+  // BEM elements
+  // TODO: add code
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+  &__OurServicesMid{
+    display: none;
+    @media (min-width: 768px) and (max-width: 991px){
+      display: block;
+    }
+  }
+
+  &__OurServices {
+    height: 796px;
+    background: url("../img/OurServicesBG.jpg");
+    padding-top: 116px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      display: none;
+    }
+    @media (max-width: 767px){
+      display: none;
+    }
+  }
+
+  &__OurServicesImg {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__title {
+    text-align: center;
+    color: $color-services-title;
+    font-family: $font-family-PTSans;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 21px;
+  }
+
+  &__subtitle {
+    margin-top: 3px;
+    line-height: 1.3;
+    text-align: center;
+    color: $color-services-title;
+    font-family: $font-family-PTSans;
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  &__OurServicesTitle {
+    margin-top: 17px;
+    font-size: 36px;
+    font-weight: 600;
+    color: $color-title;
+    font-family: $font-family-ProximaNova;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+
+  &__OurServicesSubtitle {
+    margin-top: 103px;
+    line-height: 1.2;
+    text-align: center;
+    color: $color-content;
+    font-family: $font-family-PTSans;
+    font-size: 18px;
+    font-style: italic;
+    @media (min-width: 768px) and (max-width: 991px){
+      margin-top: 20px;
+    }
+  }
+
+  &__Graphic {
+    padding-top: 98px;
+    height: 398px;
+    background: $color-services-item-BG;
+    @media (max-width: 991px) {
+      padding: 10px;
+      border-radius: 3px;
+      width: 100%;
+      height: auto;
+      background: $color-white-opacity;
+      margin: 10px 0;
+    }
+  }
+
+  &__SEO {
+    padding-top: 85px;
+    height: 398px;
+    @media (max-width: 991px) {
+      padding: 10px;
+      border-radius: 3px;
+      width: 100%;
+      height: auto;
+      background: $color-white-opacity;
+      margin: 10px 0;
+    }
+  }
+
+  &__Web {
+    padding-top: 98px;
+    height: 398px;
+    @media (max-width: 991px) {
+      padding: 10px;
+      border-radius: 3px;
+      width: 100%;
+      height: auto;
+      background: $color-white-opacity;
+      margin: 10px 0;
+    }
+  }
+    &__Mobile {
+      padding-top: 85px;
+      height: 398px;
+      background: $color-services-item-BG;
+      @media (max-width: 991px) {
+        padding: 10px;
+        border-radius: 3px;
+        width: 100%;
+        height: auto;
+        background: $color-white-opacity;
+        margin: 10px 0;
+      }
+    }
+
+    // Bem modifiers
+    // TODO: add code
+  }

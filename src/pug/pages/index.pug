@@ -1,0 +1,26 @@
+extends ../layouts/base.pug
+
+include ../../blocks/header/header.pug
+include ../../blocks/navigation/navigation.pug
+include ../../blocks/about/about.pug
+include ../../blocks/services/services.pug
+include ../../blocks/works/works.pug
+include ../../blocks/ourteam/ourteam.pug
+include ../../blocks/contact/contact.pug
+include ../../blocks/footer/footer.pug
+
+
+
+
+//- TODO: include page-specific block templates
+
+block page
+    //- TODO: add code
+    +navigation()
+    +header(data.header)
+    +about(data.about)
+    +services(data.services)
+    +works(data.works)
+    +ourteam(data.ourteam)
+    +contact(data.contact)
+    +footer(data.footer)

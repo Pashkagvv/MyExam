@@ -1,0 +1,20 @@
+//-
+    name: about
+    description: Markup for the about block
+    arguments:
+        - {object} data - block data
+
+mixin about(data = {})
+    .about&attributes(attributes)
+        .container
+            .row.no-gutters
+                .col-lg-4
+                    .about__titleCover#about
+                        img.about__icon(src="./img/AboutUs.png", alt="AboutUs")
+                        h1.about__title= data.title
+                .col-lg-1
+                .col-lg-7
+                    .about__subtitleCover
+                        p.about__subTitle!= data.subtitle
+                        p.about__subTitleSecond!= data.subtitleSecond
+                        a.about__Link Learn More
