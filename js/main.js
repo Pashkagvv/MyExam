@@ -332,6 +332,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blocks_works_works_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../blocks/works/works.js */ "./src/blocks/works/works.js");
 /* harmony import */ var _ourteam_ourteam_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../ourteam/ourteam.js */ "./src/blocks/ourteam/ourteam.js");
 /* harmony import */ var _contact_contact_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../contact/contact.js */ "./src/blocks/contact/contact.js");
+/* harmony import */ var _navigation_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../navigation/navigation */ "./src/blocks/navigation/navigation.js");
+
 
 
 
@@ -410,7 +412,8 @@ function initBlock() {
 
   _blocks_works_works_js__WEBPACK_IMPORTED_MODULE_0__["default"].initBlock();
   _ourteam_ourteam_js__WEBPACK_IMPORTED_MODULE_1__["default"].initBlock();
-  _contact_contact_js__WEBPACK_IMPORTED_MODULE_2__["default"].initBlock(); // Process the initial window size and scroll position
+  _contact_contact_js__WEBPACK_IMPORTED_MODULE_2__["default"].initBlock();
+  _navigation_navigation__WEBPACK_IMPORTED_MODULE_3__["default"].initBlock(); // Process the initial window size and scroll position
 
   handleWindowResize();
   handleWindowScroll();
@@ -589,11 +592,76 @@ function initBlock() {
   $('.contact__buttonUp').on('click', 'a', function () {
     // полчаем смещение елемента с id якоря
     var offset = $($(this).attr('href')).offset().top;
-    $('html').stop().animate({
+    $('html, body').stop().animate({
       scrollTop: offset
     }, 1000, 'swing', function () {});
   }); // TODO: add code here
 
+  return true;
+} // ---------------------------- END PUBLIC METHODS ----------------------------
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  initBlock: initBlock
+});
+
+/***/ }),
+
+/***/ "./src/blocks/navigation/navigation.js":
+/*!*********************************************!*\
+  !*** ./src/blocks/navigation/navigation.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/**
+ * @file Implementation of the navigation block
+ */
+// -------------------------- BEGIN MODULE VARIABLES --------------------------
+// TODO: add code here
+// --------------------------- END MODULE VARIABLES ---------------------------
+// -------------------------- BEGIN UTILITY FUNCTIONS -------------------------
+// TODO: add code here
+// --------------------------- END UTILITY FUNCTIONS --------------------------
+// ----------------------------- BEGIN DOM METHODS ----------------------------
+// TODO: add code here
+// ------------------------------ END DOM METHODS -----------------------------
+// --------------------------- BEGIN EVENT HANDLERS ---------------------------
+// TODO: add code here
+// ---------------------------- END EVENT HANDLERS ----------------------------
+// --------------------------- BEGIN PUBLIC METHODS ---------------------------
+
+/**
+ * Initialize the navigation block.
+ * @return true if the block is present on the page, false otherwise
+ */
+function initBlock() {
+  // TODO: add code here
+  $('.navigation__ul').on('click', 'a', function () {
+    // полчаем смещение елемента с id якоря
+    var offset = $($(this).attr('href')).offset().top;
+    $('html, body').stop().animate({
+      scrollTop: offset
+    }, 500, 'swing', function () {});
+  });
+  $('.navigation__list').on('click', 'a', function () {
+    // полчаем смещение елемента с id якоря
+    var offset = $($(this).attr('href')).offset().top;
+    $('html, body').stop().animate({
+      scrollTop: offset
+    }, 1000, 'swing', function () {});
+  });
+  $(window).scroll(function () {
+    var posY = window.scrollY; //переменная сколько уже прокрутили
+
+    if (posY > 50) {
+      $('.navigation__cower').addClass('active');
+    } else {
+      $('.navigation__cower').removeClass('active');
+    }
+  });
   return true;
 } // ---------------------------- END PUBLIC METHODS ----------------------------
 
@@ -755,7 +823,7 @@ _blocks_common_page_page__WEBPACK_IMPORTED_MODULE_0__["default"].initBlock();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! H:\Эказмен 3\src\js\main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! H:\MyExam\src\js\main.js */"./src/js/main.js");
 
 
 /***/ })

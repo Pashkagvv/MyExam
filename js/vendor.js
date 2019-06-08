@@ -14101,7 +14101,7 @@ svg4everybody__WEBPACK_IMPORTED_MODULE_1___default()();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! H:\Эказмен 3\src\js\vendor.js */"./src/js/vendor.js");
+module.exports = __webpack_require__(/*! H:\MyExam\src\js\vendor.js */"./src/js/vendor.js");
 
 
 /***/ })
