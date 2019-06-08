@@ -36,7 +36,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +44,9 @@
         <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,6 +100,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -107,41 +111,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Эказмен 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Эказмен 3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Эказмен 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Эказмен 3" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Эказмен 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Эказмен 3" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Эказмен 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Эказмен 3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Эказмен 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Эказмен 3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Эказмен 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Эказмен 3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Эказмен 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Эказмен 3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="MyExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyExam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,12 +207,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211892000" />
+    <option name="totallyTimeSpent" value="212060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -260,7 +231,7 @@
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" />
       <window_info anchor="bottom" id="TeamCity" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.24744028" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.49924356" visible="true" weight="0.45051193" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.49924356" visible="true" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
